@@ -1,5 +1,6 @@
 # 编辑器文件
 .vscode
+.idea
 
 # node 包
 node_modules
