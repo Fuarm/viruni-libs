@@ -1,6 +1,6 @@
 {
   "name": "@viruni/demos",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "🚗 我是demos, 首页住业务",
   "author": "苟富军 <750108747@qq.com>",
   "homepage": "",
@@ -18,7 +18,7 @@
     "dev": "microbundle watch"
   },
   "dependencies": {
-    "@viruni/core": "^1.0.1"
+    "@viruni/core": "^1.0.2"
   },
   "gitHead": "2bf787cb6f87974793c8e076628ac6dd8c59d525"
 }
