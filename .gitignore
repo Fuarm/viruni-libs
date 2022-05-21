@@ -1,0 +1,8 @@
+# 编辑器文件
+.vscode
+
+# node 包
+node_modules
+
+# dist 打包文件
+dist

@@ -1,0 +1,23 @@
+{
+  "name": "@viruni/demos",
+  "version": "1.0.0",
+  "description": "🚗 我是demos, 首页住业务",
+  "author": "苟富军 <750108747@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "src/index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "dependencies": {
+    "core": "workspace:npm:@viruni/core@^1.0.0"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "@viruni/core",
+  "version": "1.0.0",
+  "description": "🚗 我是core，负责全局核心配置",
+  "author": "苟富军 <750108747@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "src/index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  }
+}
