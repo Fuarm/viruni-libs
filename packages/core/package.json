@@ -16,5 +16,6 @@
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch"
-  }
+  },
+  "gitHead": "2bf787cb6f87974793c8e076628ac6dd8c59d525"
 }
