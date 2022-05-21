@@ -1,4 +1,4 @@
-import data from "core"
+import data from "@viruni/core"
 
 console.log(data)
 

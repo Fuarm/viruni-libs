@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  core: workspace:npm:@viruni/core@^1.0.0
+  '@viruni/core': ^1.0.0
 
 dependencies:
-  core: link:../core
+  '@viruni/core': link:../core

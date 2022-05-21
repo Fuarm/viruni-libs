@@ -18,6 +18,6 @@
     "dev": "microbundle watch"
   },
   "dependencies": {
-    "core": "workspace:npm:@viruni/core@^1.0.0"
+    "@viruni/core": "^1.0.0"
   }
 }
