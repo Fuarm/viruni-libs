@@ -1,7 +1,7 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 specifiers:
-  '@viruni/core': ^1.0.0
+  '@viruni/core': ^1.0.2
 
 dependencies:
   '@viruni/core': link:../core

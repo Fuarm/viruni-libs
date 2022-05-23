@@ -4,11 +4,25 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "lib:test": "node scripts/test.js",
+    "lib:uitest": "majestic"
+  },
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "@types/jest": "^27.5.1",
+    "lerna": "^4.0.0",
+    "majestic": "^1.8.1"
   },
   "dependencies": {
-    "microbundle": "^0.14.2"
+    "@darkobits/lolcatjs": "3.1.3",
+    "@tsconfig/recommended": "^1.0.1",
+    "figlet": "^1.5.2",
+    "jest": "^28.1.0",
+    "microbundle": "^0.14.2",
+    "minimist": "^1.2.6",
+    "ora": "4.0.4",
+    "ts-jest": "^28.0.2",
+    "typescript": "^4.6.4"
   },
   "version": "1.0.0"
 }
