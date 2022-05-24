@@ -21,5 +21,3 @@ const normalTash = () => {
 export { normalTash }
 
 console.log(data)
-
-

@@ -5,13 +5,32 @@
     "packages/*"
   ],
   "scripts": {
+    "dev": "parcel example/index.html",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 2",
+    "clean": "lerna clean && rm -rf node_modules",
     "lib:test": "node scripts/test.js",
-    "lib:uitest": "majestic"
+    "lib:uitest": "majestic",
+    "packages:diff": "lerna diff",
+    "packages:list": "lerna ls -l",
+    "packages:changed": "lerna changed",
+    "packages:build": "lerna run --stream --sort build",
+    "publish": "lerna publish",
+    "autoPublish": "lerna publish --conventional-commits --yes",
+    "vu:version": "lerna version",
+    "lint": "eslint --ext .ts packages"
   },
   "devDependencies": {
     "@types/jest": "^27.5.1",
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "lerna": "^4.0.0",
-    "majestic": "^1.8.1"
+    "majestic": "^1.8.1",
+    "prettier": "^2.6.2"
   },
   "dependencies": {
     "@darkobits/lolcatjs": "3.1.3",
