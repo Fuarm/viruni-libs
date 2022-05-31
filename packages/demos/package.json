@@ -18,7 +18,8 @@
     "dev": "microbundle watch"
   },
   "dependencies": {
-    "@viruni/core": "^1.0.2"
+    "@viruni/core": "^1.0.2",
+    "xstate": "^4.32.1"
   },
   "gitHead": "2bf787cb6f87974793c8e076628ac6dd8c59d525"
 }
